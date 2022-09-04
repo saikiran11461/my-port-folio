@@ -42,7 +42,7 @@ const Projects = () => {
     //   tech_stack: [<FaReact />, <SiRedux />, <FaJs />, <FaHtml5 />, <FaCss3 />],
     // },
     {
-      id: 2,
+      id: 1,
       project_name: "apollo farmacy",
       image: "/project_images/project-1.png",
       project_desc:
@@ -56,6 +56,8 @@ const Projects = () => {
         <FaCss3 />,
       ],
     },
+
+    
     // {
     //   id: 2,
     //   project_name: "Netflix Clone",
@@ -68,7 +70,7 @@ const Projects = () => {
     // },
     //
     {
-      id: 4,
+      id: 2,
       project_name: "fragrance outnet",
       image: "/project_images/project-2.png",
       project_desc:
@@ -100,17 +102,101 @@ const Projects = () => {
        
       ],
     },
+    // {
+    //   id: 4,
+    //   project_name: "Bluemercury Clone",
+    //   image: "/project_images/bluemercury.png",
+    //   project_desc:
+    //     "Bluemercury is an US based Cosmetics store. Built using HTML, CSS and JavaScript. ",
+    //   deploy_link: "https://bluemercuryclone.netlify.app/",
+    //   repo_link: "https://github.com/Vishal-080/Bluemercury",
+    //   tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
+    // },
+
+        
     {
       id: 5,
-      project_name: "Bluemercury Clone",
-      image: "/project_images/bluemercury.png",
+      project_name: "FATHOME Clone",
+      image: "/project_images/project-5.png",
       project_desc:
-        "Bluemercury is an US based Cosmetics store. Built using HTML, CSS and JavaScript. ",
-      deploy_link: "https://bluemercuryclone.netlify.app/",
-      repo_link: "https://github.com/Vishal-080/Bluemercury",
-      tech_stack: [<FaHtml5 />, <FaCss3 />, <FaJs />],
+        "A site Build on Cost, speed, and accuracy. No need to make trade-offs, choose all three. Cost.",
+      deploy_link: "https://lying-powder-9405.vercel.app/",
+      repo_link: "https://github.com/saikiran11461/lying-powder-9405",
+      tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />,<SiRedux />],
     },
 
+    {
+      id: 6,
+      project_name: "Photo Graph",
+      image: "/project_images/project-6.png",
+      project_desc:
+        "A site Build to showcase our trends on Editing Pics and videous.",
+      deploy_link: "https://photograph-webpage.vercel.app/",
+      repo_link: "https://github.com/saikiran11461/photograph",
+      tech_stack: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3 />,<SiRedux />],
+    },
+
+    {
+      id: 7,
+      project_name: "Sticky notes",
+      image: "/project_images/project-7.png",
+      project_desc:
+        "Made a site about notes we can make sticky notes",
+      deploy_link: "https://new-sticky-notes.vercel.app/",
+      repo_link: "https://github.com/saikiran11461/new_sticky-notes",
+      tech_stack: [
+        <FaHtml5 />,
+        <FaCss3 />,
+        <FaReact />,
+       
+      ],
+    },
+
+    {
+      id: 8,
+      project_name: " Birthday Presentation",
+      image: "/project_images/project-8.png",
+      project_desc:
+        "Made a site about Showing the birthdays",
+      deploy_link: "https://react-birthday.vercel.app/",
+      repo_link: "https://github.com/saikiran11461/react-birthday",
+      tech_stack: [
+        <FaHtml5 />,
+        <FaCss3 />,
+        <FaJs />,
+       
+      ],
+    },
+    {
+      id: 9,
+      project_name: " Movies app",
+      image: "/project_images/project-9.png",
+      project_desc:
+        "Made a site about showing movies",
+      deploy_link: "https://new-movies-app.vercel.app/",
+      repo_link: "https://github.com/saikiran11461/new_movies_app",
+      tech_stack: [
+        <FaHtml5 />,
+        <FaCss3 />,
+        <FaJs />,
+       
+      ],
+    },
+    {
+      id: 10,
+      project_name: " Calculator app",
+      image: "/project_images/project-10.png",
+      project_desc:
+        "Created a calculator app",
+      deploy_link: "https://calc-new-three.vercel.app/",
+      repo_link: "https://github.com/saikiran11461/calc_new",
+      tech_stack: [
+        <FaHtml5 />,
+        <FaCss3 />,
+        <FaJs />,
+       
+      ],
+    }
     //https://seekho-frontend-vcow10kar.vercel.app/
   ];
 
